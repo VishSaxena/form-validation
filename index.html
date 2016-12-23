@@ -1,0 +1,18 @@
+<span id="green">I AM GREEN</span>
+<form id="myform">
+    <input type="text" name="username" />
+    <input type="text" name="phonenumbrer" />
+    <input type="submit" name="submit" value="SUBMIT" />
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="form-validation.jquery.js"></script>
+<script>
+$(document).ready(function() {
+    $("#myform").abcform({});
+    // $("#myform").formValidate({
+    //     defaultMessage: "This is default message"
+    // });
+    // $("#green").greenify({backgroundColor: "#556b2f",
+    //         color: "#ececec",padding: "10px"});
+});
+</script>
